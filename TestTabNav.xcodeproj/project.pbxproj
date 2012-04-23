@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013ECE0515460E21007D3698 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013ECE0415460E21007D3698 /* UIKit.framework */; };
+		013ECE0715460E21007D3698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013ECE0615460E21007D3698 /* Foundation.framework */; };
+		013ECE0915460E21007D3698 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013ECE0815460E21007D3698 /* CoreGraphics.framework */; };
+		013ECE0F15460E21007D3698 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 013ECE0D15460E21007D3698 /* InfoPlist.strings */; };
+		013ECE1115460E21007D3698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013ECE1015460E21007D3698 /* main.m */; };
+		013ECE1515460E21007D3698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013ECE1415460E21007D3698 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		013ECE0015460E21007D3698 /* TestTabNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTabNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013ECE0415460E21007D3698 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		013ECE0615460E21007D3698 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		013ECE0815460E21007D3698 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		013ECE0C15460E21007D3698 /* TestTabNav-Info.plist */ = {isa = PBXFileReference; path = "TestTabNav-Info.plist"; sourceTree = "<group>"; };
+		013ECE0E15460E21007D3698 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		013ECE1015460E21007D3698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		013ECE1215460E21007D3698 /* TestTabNav-Prefix.pch */ = {isa = PBXFileReference; path = "TestTabNav-Prefix.pch"; sourceTree = "<group>"; };
+		013ECE1315460E21007D3698 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		013ECE1415460E21007D3698 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013ECDFD15460E21007D3698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013ECE0515460E21007D3698 /* UIKit.framework in Frameworks */,
+				013ECE0715460E21007D3698 /* Foundation.framework in Frameworks */,
+				013ECE0915460E21007D3698 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013ECDF515460E20007D3698 = {
+			isa = PBXGroup;
+			children = (
+				013ECE0A15460E21007D3698 /* TestTabNav */,
+				013ECE0315460E21007D3698 /* Frameworks */,
+				013ECE0115460E21007D3698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013ECE0115460E21007D3698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013ECE0015460E21007D3698 /* TestTabNav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013ECE0315460E21007D3698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013ECE0415460E21007D3698 /* UIKit.framework */,
+				013ECE0615460E21007D3698 /* Foundation.framework */,
+				013ECE0815460E21007D3698 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		013ECE0A15460E21007D3698 /* TestTabNav */ = {
+			isa = PBXGroup;
+			children = (
+				013ECE1315460E21007D3698 /* AppDelegate.h */,
+				013ECE1415460E21007D3698 /* AppDelegate.m */,
+				013ECE0B15460E21007D3698 /* Supporting Files */,
+			);
+			path = TestTabNav;
+			sourceTree = "<group>";
+		};
+		013ECE0B15460E21007D3698 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013ECE0C15460E21007D3698 /* TestTabNav-Info.plist */,
+				013ECE0D15460E21007D3698 /* InfoPlist.strings */,
+				013ECE1015460E21007D3698 /* main.m */,
+				013ECE1215460E21007D3698 /* TestTabNav-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013ECDFF15460E21007D3698 /* TestTabNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013ECE1815460E21007D3698 /* Build configuration list for PBXNativeTarget "TestTabNav" */;
+			buildPhases = (
+				013ECDFC15460E21007D3698 /* Sources */,
+				013ECDFD15460E21007D3698 /* Frameworks */,
+				013ECDFE15460E21007D3698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTabNav;
+			productName = TestTabNav;
+			productReference = 013ECE0015460E21007D3698 /* TestTabNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013ECDF715460E20007D3698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = WYF;
+			};
+			buildConfigurationList = 013ECDFA15460E20007D3698 /* Build configuration list for PBXProject "TestTabNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 013ECDF515460E20007D3698;
+			productRefGroup = 013ECE0115460E21007D3698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013ECDFF15460E21007D3698 /* TestTabNav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013ECDFE15460E21007D3698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013ECE0F15460E21007D3698 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013ECDFC15460E21007D3698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013ECE1115460E21007D3698 /* main.m in Sources */,
+				013ECE1515460E21007D3698 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		013ECE0D15460E21007D3698 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013ECE0E15460E21007D3698 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		013ECE1615460E21007D3698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		013ECE1715460E21007D3698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		013ECE1915460E21007D3698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTabNav/TestTabNav-Prefix.pch";
+				INFOPLIST_FILE = "TestTabNav/TestTabNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		013ECE1A15460E21007D3698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTabNav/TestTabNav-Prefix.pch";
+				INFOPLIST_FILE = "TestTabNav/TestTabNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013ECDFA15460E20007D3698 /* Build configuration list for PBXProject "TestTabNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013ECE1615460E21007D3698 /* Debug */,
+				013ECE1715460E21007D3698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013ECE1815460E21007D3698 /* Build configuration list for PBXNativeTarget "TestTabNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013ECE1915460E21007D3698 /* Debug */,
+				013ECE1A15460E21007D3698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013ECDF715460E20007D3698 /* Project object */;
+}
