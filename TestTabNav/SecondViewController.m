@@ -23,6 +23,19 @@
     return self;
 }
 
+-(void) loadView
+{
+    UIView *view = [[[UIView alloc] init] autorelease];
+    view.backgroundColor = [UIColor yellowColor];
+    view.frame = CGRectMake(0, 0, 320, 460);
+    self.view =  view;
+    
+    UIView *titleV = [[[UIView alloc] init] autorelease];
+    titleV.frame = CGRectMake(0, 0, 320, 44);
+    titleV.backgroundColor = [UIColor redColor];
+    self.navigationItem.titleView = titleV;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

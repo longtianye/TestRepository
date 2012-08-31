@@ -23,6 +23,28 @@
     return self;
 }
 
+-(void) loadView
+{
+    
+    UIView *view = [[[UIView alloc] init] autorelease];
+    view.frame = CGRectMake(0, 0, 320, 460);
+    self.view = view;
+    
+    UIWebView *webView = [[[UIWebView alloc] init] autorelease];
+    webView.frame = CGRectMake(0, 0, 320, 460);
+//    webView.backgroundColor  = [UIColor colorWithPatternImage:[[FloggerUIFactory uiFactory] createImage:SNS_BACKGROUND_TEXTURE]];
+    
+//    NSString *url = [self.webInfoDic objectForKey:kWebURLPath];
+    NSString *url = @"http://www.baidu.com";
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:url]]];
+    
+    [self.view addSubview:webView];
+    
+//    UIToolbar
+    UIToolbar *toolBar = [[[UIToolbar alloc] init] autorelease];
+    toolBar.frame = CGRectMake(0, 0, 320, 44);
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

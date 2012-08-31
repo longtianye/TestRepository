@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestIndexViewController : UIViewController
+@interface TestIndexViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate>
+
+@property (nonatomic, retain) UITableView *tableV;
+@property (nonatomic, retain) NSArray *listContent;
+@property (nonatomic, retain) NSMutableArray *filteredListContent;
 
 @end
